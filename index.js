@@ -6,11 +6,11 @@ var randomnum2=Math.random()*6+1;
 randomnum2=Math.floor(randomnum2);
 console.log("Num2 :"+ randomnum2);
 // for dice 1
-var imgnum1="images/dice"+randomnum1+".png";
+var imgnum1="dice"+randomnum1+".png";
 var element=document.getElementsByClassName('img1');
 element[0].src= imgnum1;
 //for dice 2
-var imgnum2="images/dice"+randomnum2+".png";
+var imgnum2="dice"+randomnum2+".png";
 var element=document.getElementsByClassName('img2');
 element[0].src= imgnum2;
 // the player who have won
