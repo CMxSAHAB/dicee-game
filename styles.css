@@ -9,6 +9,7 @@
     display: inline-block;
 
 }
+
 body{
     background-color:#EDFFEC;
 }
@@ -17,12 +18,12 @@ h1{
     margin: 30;
     font-size: 6rem;
     text-shadow: 5px 0 #424445;
-    color:  #E4BAD4;
+    color:  #7a13bf;
 }
 p{
     font-size: 2rem;
     font-family: 'Indie Flower', cursive;
-    color:  #E4BAD4;
+    color:  #7a13bf;
 }
 .img1{
 width: 80%;
@@ -34,5 +35,9 @@ footer{
     font-family: 'Indie Flower', cursive;
     text-align: center;
     margin-top:5% ;
-    color: #F0D9FF;
+    color: #7a13bf;
+    font-weight: 800;
+}
+.icon{
+    font-size: 4rem;
 }

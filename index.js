@@ -7,7 +7,8 @@ randomnum2=Math.floor(randomnum2);
 console.log("Num2 :"+ randomnum2);
 // for dice 1
 var imgnum1="images/dice"+randomnum1+".png";
-var element=document.getElementsByClassName('img1');
+
+var element =document.getElementsByClassName('img1');
 element[0].src= imgnum1;
 //for dice 2
 var imgnum2="images/dice"+randomnum2+".png";
@@ -24,3 +25,4 @@ else if (randomnum1<randomnum2){
     else{
         headcontainer.textContent= "draw!!";
     }
+
