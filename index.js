@@ -19,7 +19,7 @@ if(randomnum1>randomnum2){
 headcontainer.textContent= "player 1 Won 🏁";
 }
 else if (randomnum1<randomnum2){
-    headcontainer.textContent= "player 2 Won 🏁";
+    headcontainer.textContent= "won player 🚩2 ";
     }
     else{
         headcontainer.textContent= "draw!!";
